@@ -9,9 +9,13 @@ var pos = name.indexOf('.');
 name = name.substring(0,pos);
 	var current = $("#" + name);
          $("#" + name).addClass("active");
-         alert(name);
+         if(name = ""){
+    document.getElementById("index").setAttribute("class","active");
+    $('#mattRocco').show(); 
+    $('#bottomNav').show();
+} else{
     document.getElementById(name).setAttribute("class","active");
-
+}
 	if( $("#" + name)!= null){ 
 	 $("#" + name).addClass("active");
 	// $('#mattRocco').css({
@@ -24,11 +28,7 @@ name = name.substring(0,pos);
     $('#mattRocco').show(); 
     $('#bottomNav').show();
 
-} else {
-      document.getElementById("index").setAttribute("class","active");
-          $('#mattRocco').show(); 
-    $('#bottomNav').show();
-}
+} 
 
 
 	$(document).bind('mousemove', function(e){
