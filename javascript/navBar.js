@@ -8,8 +8,9 @@ var pos = name.indexOf('.');
 name = name.substring(0,pos);
 	var current = $("#" + name);
          $("#" + name).addClass("active");
+document.getElementById(name).setAttribute("class","active");
 
-	if( $("#" + name)!= null){
+	if( $("#" + name)!= null){ 
 	 $("#" + name).addClass("active");
 	// $('#mattRocco').css({
  //        left: $("#" + name).position().left ,
