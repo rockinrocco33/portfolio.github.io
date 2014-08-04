@@ -9,7 +9,7 @@ var pos = name.indexOf('.');
 name = name.substring(0,pos);
 	var current = $("#" + name);
          $("#" + name).addClass("active");
-         if(name = ""){
+         if(name  == null){
     document.getElementById("index").setAttribute("class","active");
     $('#mattRocco').show(); 
     $('#bottomNav').show();
