@@ -9,7 +9,6 @@ var pos = name.indexOf('.');
 name = name.substring(0,pos);
 	var current = $("#" + name);
          $("#" + name).addClass("active");
-         alert(name.length);
          if(name.length == 0){
     document.getElementById("index").setAttribute("class","active");
     $('#mattRocco').show(); 
