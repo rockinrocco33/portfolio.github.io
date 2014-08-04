@@ -11,12 +11,12 @@ name = name.substring(0,pos);
 
 	if( $("#" + name)!= null){
 	 $("#" + name).addClass("active");
-	$('#mattRocco').css({
-        left: $("#" + name).position().left ,
-    });
-    $('#bottomNav').css({
-    	left: $("#" + name).position().left,
-    })
+	// $('#mattRocco').css({
+ //        left: $("#" + name).position().left ,
+ //    });
+ //    $('#bottomNav').css({
+ //    	left: $("#" + name).position().left,
+ //    })
 
     $('#mattRocco').show(); 
     $('#bottomNav').show();
