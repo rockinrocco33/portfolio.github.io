@@ -28,6 +28,7 @@ name = name.substring(0,pos);
     $('#mattRocco').show(); 
     $('#bottomNav').show(); 
 
+    if($('#navbar')!=null){
  	if(e.pageX < $("#navbar").position().left + $("#navbar").width() - 165
 		&& e.pageX > $("#navbar").position().left + 100
 
@@ -40,5 +41,6 @@ name = name.substring(0,pos);
     	left: e.pageX - 140,
     });
 
+}
 }
 });
