@@ -1,5 +1,5 @@
 $(document).ready( function() {
-	$("#navbarLoad").load("./navbar.html");
+	$("#navbarLoad").load("./navbar.html", function(){
 
     $('#mattRocco').hide(); 
     $('#bottomNav').hide();
@@ -9,7 +9,7 @@ var pos = name.indexOf('.');
 name = name.substring(0,pos);
 	var current = $("#" + name);
          $("#" + name).addClass("active");
-document.getElementById(name).setAttribute("class","active");
+    document.getElementById(name).setAttribute("class","active");
 
 	if( $("#" + name)!= null){ 
 	 $("#" + name).addClass("active");
@@ -45,5 +45,6 @@ document.getElementById(name).setAttribute("class","active");
 
 }
 }
+});
 });
 })
