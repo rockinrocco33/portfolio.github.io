@@ -1,5 +1,6 @@
 $(document).ready( function() {
-	
+	$("#navbarLoad").load("./navbar.html");
+
     $('#mattRocco').hide(); 
     $('#bottomNav').hide();
 var name = location.pathname.split('/').slice(-1);
