@@ -7,8 +7,8 @@ name = String(name);
 var pos = name.indexOf('.');
 name = name.substring(0,pos);
 	var current = $("#" + name);
-        current.addClass("active");
-
+         $("#" + name).addClass("active");
+        
 	if(current.position().left){
 	current.addClass("active");
 	$('#mattRocco').css({
