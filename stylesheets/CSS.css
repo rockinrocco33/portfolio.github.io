@@ -36,7 +36,10 @@
 
 }
 
-
+#iframe{
+	height:600px;
+	width:400px;
+}
 .panel{
 	width:100%;
 	text-align:center;
