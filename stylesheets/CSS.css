@@ -36,9 +36,9 @@
 
 }
 
-iframe{
+.collapseVid{
 	height:600px;
-	width:400px;
+	width:800px;
 }
 .panel{
 	width:100%;
@@ -47,6 +47,11 @@ iframe{
 	width:90%;
 		margin-left:5%;
 	margin-right:5%;
+	margin-bottom:5%;
+
+}
+.panel-group{
+	margin-bottom:60px;
 }
 .panel-body{
 	font-size:14px;
