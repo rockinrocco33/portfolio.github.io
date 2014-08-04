@@ -22,7 +22,7 @@ name = name.substring(0,pos);
     $('#bottomNav').show();
 
 }
-})
+
 
 	$(document).bind('mousemove', function(e){
     $('#mattRocco').show(); 
@@ -44,3 +44,4 @@ name = name.substring(0,pos);
 }
 }
 });
+})
