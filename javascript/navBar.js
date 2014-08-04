@@ -9,6 +9,7 @@ var pos = name.indexOf('.');
 name = name.substring(0,pos);
 	var current = $("#" + name);
          $("#" + name).addClass("active");
+         alert(name);
     document.getElementById(name).setAttribute("class","active");
 
 	if( $("#" + name)!= null){ 
