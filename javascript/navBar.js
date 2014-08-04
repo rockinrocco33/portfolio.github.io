@@ -23,6 +23,10 @@ name = name.substring(0,pos);
     $('#mattRocco').show(); 
     $('#bottomNav').show();
 
+} else {
+      document.getElementById("index").setAttribute("class","active");
+          $('#mattRocco').show(); 
+    $('#bottomNav').show();
 }
 
 
