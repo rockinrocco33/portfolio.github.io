@@ -27,6 +27,7 @@ font-family:"Comic Sans MS", cursive, sans-serif;
 	opacity: 0;
 	overflow: hidden;
 	color: #6b969d;
+	width:250px;
 	-webkit-animation: rotateWord 18s linear infinite 0s;
 	-ms-animation: rotateWord 18s linear infinite 0s;
 	animation: rotateWord 18s linear infinite 0s;
