@@ -47,20 +47,22 @@ $.fn.disableSelection = function() {
 var navbar = $('#navbar');
 var mattrocco = $('#mattRocco');
 var bottomNav = $('#bottomNav');
+var pageX;
 	$(document).bind('mousemove', function(e){
         console.log("moved");
 
     if(navbar!=null){
- 	if(e.pageX < navbar.position().left + navbar.width() - 165
-		&& e.pageX > navbar.position().left + 100
+        pageX= e.pageX
+ 	if(pageX < navbar.position().left + navbar.width() - 165
+		&& pageX > navbar.position().left + 100
 
 		)
 	{
     mattrocco.css({
-        left: e.pageX -100,
+        left: pageX -100,
     }); 
     bottomNav.css({
-    	left: e.pageX - 140,
+    	left: pageX - 140,
     });
             console.log("completed");
 
