@@ -19,15 +19,20 @@ name = name.substring(0,pos);
 }
 	if( $("#" + name)!= null){ 
 	 $("#" + name).addClass("active");
+     if(mattrocco){
         mattrocco.css({
         left: $("#"+name).position().left,
     }); 
+            mattrocco.show(); 
+
+    }
+    if(bottomNav){
     bottomNav.css({
         left: $("#"+name).position().left,
     });
-    mattrocco.show(); 
-    bottomNav.show();
+        bottomNav.show();
 
+}
 } 
 
 var navbar = $('#navbar');
