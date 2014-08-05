@@ -44,20 +44,22 @@ $.fn.disableSelection = function() {
   });
 };
 
+var navbar = $('#navbar');
+var mattrocco = $('#mattRocco');
+var bottomNav = $('#bottomNav');
 	$(document).bind('mousemove', function(e){
-    $('#mattRocco').show(); 
-    $('#bottomNav').show(); 
 
-    if($('#navbar')!=null){
- 	if(e.pageX < $("#navbar").position().left + $("#navbar").width() - 165
-		&& e.pageX > $("#navbar").position().left + 100
+
+    if(navbar!=null){
+ 	if(e.pageX < navbar.position().left + navbar.width() - 165
+		&& e.pageX > navbar.position().left + 100
 
 		)
 	{
-    $('#mattRocco').css({
+    mattrocco.css({
         left: e.pageX -100,
     }); 
-    $('#bottomNav').css({
+    bottomNav.css({
     	left: e.pageX - 140,
     });
 
