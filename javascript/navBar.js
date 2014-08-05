@@ -48,9 +48,9 @@ var newBot
 	{
         newMatt = pageX-100;
         newBot = pageX-140;
-    // mattrocco.css({
-    //     left: newMatt,
-    // }); 
+    mattrocco.css({
+        left: newMatt,
+    }); 
     bottomNav.css({
     	left: newBot,
     });
