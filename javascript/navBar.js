@@ -40,9 +40,8 @@ var navbar = $('#navbar');
 var pageX;
 var newMatt;
 var newBot
+var mattrocco = document.getElementById("mattrocco");
 	$(document).bind('mousemove', function(e){
-        console.log("moved");
-
     if(navbar!=null){
         pageX= e.pageX
  	if(pageX < navbar.position().left + navbar.width() - 165
@@ -50,14 +49,10 @@ var newBot
 	{
         newMatt = pageX-100;
         newBot = pageX-140
-    mattrocco.css({
-        left: newMatt,
-    }); 
+    mattrocco.style.left = newMatt; 
     bottomNav.css({
     	left: newBot,
     });
-            console.log("completed");
-
 }
 }
 });
