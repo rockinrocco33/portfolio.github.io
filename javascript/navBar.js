@@ -40,7 +40,7 @@ var navbar = $('#navbar');
 var pageX;
 var newMatt;
 var newBot
-var mattrocco = document.getElementById("mattrocco");
+var mattrocco = document.getElementById("mattRocco");
 	$(document).bind('mousemove', function(e){
     if(navbar!=null){
         pageX= e.pageX
