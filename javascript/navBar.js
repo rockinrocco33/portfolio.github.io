@@ -47,7 +47,7 @@ var newBot
 		&& pageX > navbar.position().left + 100)
 	{
         newMatt = pageX-100;
-        newBot = pageX-140
+        newBot = pageX-140;
     mattrocco.css({
         left: newMatt,
     }); 
