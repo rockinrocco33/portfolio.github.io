@@ -51,9 +51,9 @@ var newBot
     mattrocco.css({
         left: newMatt,
     }); 
-    bottomNav.css({
-    	left: newBot,
-    });
+    // bottomNav.css({
+    // 	left: newBot,
+    // });
 }
 }
 });
