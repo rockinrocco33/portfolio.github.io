@@ -47,7 +47,7 @@ $.fn.disableSelection = function() {
 var navbar = $('#navbar');
 var mattrocco = $('#mattRocco');
 var bottomNav = $('#bottomNav');
-	$(document).bind('mousemove', function(e){
+	document.addEventListener('mousemove', function(e){
 
 
     if(navbar!=null){
