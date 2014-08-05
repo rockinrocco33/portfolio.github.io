@@ -62,6 +62,7 @@ var bottomNav = $('#bottomNav');
     bottomNav.css({
     	left: e.pageX - 140,
     });
+            console.log("completed");
 
 }
 }
