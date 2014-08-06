@@ -2,37 +2,76 @@
 <html>
 <head>
   <script src="./javascript/jquery-1.11.1.js"></script>
+  <script src="./javascript/ScriptCam-master/scriptcam.min.js"></script>
 
   <link rel="stylesheet" href="./stylesheets/bootstrap.3.1.1.min.css">
 
 <link rel="stylesheet" href="./stylesheets/CSS.css">
 <link rel="stylesheet" href="./stylesheets/rotatingWords.css">
 <script src="./javascript/navBar.js"> </script>
-
-
-
     <script src="./javascript/bootstrap.js"></script>
+
+<script src="./javascript/justForFun.js"> </script>
 
 
 
 </head>
 
 <body>
-
-
 <div id="navbarLoad">
-	<script>
-</script>
+</div>
+
+<ul class="nav nav-tabs" role="tablist">
+
+  <li id="firstTab" class="active">
+  
+  	<a data-toggle="tab" role="tab" href="#tab1">Practice Studio</a>
+
+  </li>
+  <li>
+  	<a id="tab2Pan" data-toggle="tab" role="tab" href="#tab2">Typing Test</a>
+  </li>
+  <li > 
+  	<a data-toggle="tab" role="tab" id = "tab3Pan" href="#tab3">That I will finish one</a>
+  </li>
+</ul>
+
+<div class="tab-content">
+<div id="tab1" class="tab-pane active">
+ TAB 1
+	</div>
+
+<div id="tab2" class="tab-pane">
+<div>
+
+  <span id ="timeRemaining">120</span>
+
+  <div id="textParagraph" >
+    <span id ="typed" > </span>
+    <span id ="currentWord" ></span>
+<span id ="notTyped" > </span>
+
+</div>
+
+<textarea id ="input"class="form-control" rows="12"></textarea>
+
+<div id="typingTestButtons">
+<button id="startButton" class="btn btn-primary btn-lg" role="button">Start Test</button>
+<button id="stopButton" class="btn btn-primary btn-lg" role="button">Stop Test</button>
+</div>
 </div>
 
 
 
+	tab2
+</div>
+<div id="tab3" class="tab-pane">
+
+	tab3
+</div>
 
 
-
-
-
-
+</div>
 
 
 </body>

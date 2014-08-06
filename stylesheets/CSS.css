@@ -16,6 +16,36 @@
 
 }
 
+#firstTab{
+	padding-left:25%;
+}
+#input{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+}
+
+#timeRemaining{
+	margin-left:45%;
+	font-weight:900;
+	color:white;
+}
+#textParagraph{
+	width:90%;
+	margin-left:5%;
+	margin-right:5%;
+	margin-top:5%;
+}
+
+#currentWord{
+	/*color:green;*/
+	text-decoration:underline;
+
+}
+#typed{
+	color:gray;
+}
+
 #indexPanel{
 	font-size:20px;
 	width:100%;
@@ -48,6 +78,11 @@
 
 .panel-title{
 	color:white;
+	display:inline;
+	margin-left:42%;
+	margin-right:42%;
+	  min-width:400px;
+
 }
 
 
@@ -62,7 +97,6 @@
   background-image:         linear-gradient(top, #428bca 0%, #222 100%);
 
   background-image: -moz-linear-gradient(top, rgba(66, 139, 202, 1), #222);
-
 
 }
 
@@ -223,6 +257,11 @@
   }
 }
 
+#justForFunTabs{
+	width:90%;
+	margin-left:5%;
+
+}
 
 html,body{
 	margin:0;
