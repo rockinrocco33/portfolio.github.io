@@ -2,6 +2,10 @@ $(document).ready( function() {
 	$("#navbarLoad").load("./navbar.html", function(){
 var mattrocco = $('#mattRocco');
 var bottomNav = $('#bottomNav');
+window.onload=function() {
+    document.getElementById('loading-mask').style.display='none';
+}
+
    mattrocco.hide(); 
    bottomNav.hide();
 var name = location.pathname.split('/').slice(-1);
@@ -58,5 +62,5 @@ var newBot
 }
 });
 });
-$("#loading-mask").hide();
+//$("#loading-mask").hide();
 })
