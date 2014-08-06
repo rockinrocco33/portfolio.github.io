@@ -58,4 +58,5 @@ var newBot
 }
 });
 });
+$("#loading-mask").hide();
 })
