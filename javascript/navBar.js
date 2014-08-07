@@ -62,5 +62,5 @@ var newBot
 }
 });
 });
-//$("#loading-mask").hide();
+$("#loading-mask").hide();
 })
