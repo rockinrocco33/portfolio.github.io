@@ -271,6 +271,8 @@ html,body{
 
 body{
 	height:97%;
+	background-size: 100%;
+
 
 }
 
@@ -283,11 +285,5 @@ body{
 
 }
 #loading-mask {
-    background-color: white;
-    height: 100%;
-    left: 0;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    z-index: 9999;
+ background-size:100$;
 }
