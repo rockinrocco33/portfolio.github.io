@@ -21,7 +21,7 @@ name = name.substring(0,pos);
 } else{
     document.getElementById(name).setAttribute("class","active");
 }
-	if( $("#" + name)!= null){ 
+	//if( $("#" + name)!= null){ 
 	 $("#" + name).addClass("active");
      if(mattrocco){
         mattrocco.css({
@@ -37,7 +37,7 @@ name = name.substring(0,pos);
         bottomNav.show();
 
 }
-} 
+//} 
 
 var navbar = $('#navbar');
 
