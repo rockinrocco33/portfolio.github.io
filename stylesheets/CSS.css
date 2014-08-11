@@ -272,7 +272,8 @@ html,body{
 body{
 	height:97%;
 	background-size: 100%;
-
+	-ms-ie-background-size: 100%;
+  -webkit-background-size: 100%
 
 }
 
