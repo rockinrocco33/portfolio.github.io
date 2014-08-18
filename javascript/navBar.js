@@ -22,6 +22,7 @@ name = name.substring(0,pos);
     document.getElementById(name).setAttribute("class","active");
 }
 	//if( $("#" + name)!= null){ 
+        alert(name);
 	 $("#" + name).addClass("active");
      if(mattrocco){
         mattrocco.css({
