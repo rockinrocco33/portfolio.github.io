@@ -22,7 +22,12 @@ name = name.substring(0,pos);
     document.getElementById(name).setAttribute("class","active");
 }
 	//if( $("#" + name)!= null){ 
-        alert(name);
+        if(name == null){
+            alert("name is null");
+        }
+        if(name == ""){
+            alert("name is emptyString");
+        }
 	 $("#" + name).addClass("active");
      if(mattrocco){
         mattrocco.css({
