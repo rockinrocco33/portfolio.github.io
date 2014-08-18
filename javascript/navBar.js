@@ -1,5 +1,5 @@
 $(document).ready( function() {
-	$("#navbarLoad").load("../javascript/navbar.html", function(){
+	$("#navbarLoad").load("/javascript/navbar.html", function(){
 var mattrocco = $('#mattRocco');
 var bottomNav = $('#bottomNav');
 window.onload=function() {
