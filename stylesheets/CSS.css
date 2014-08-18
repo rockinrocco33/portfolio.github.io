@@ -273,12 +273,10 @@
 
 html,body{
 	margin:0;
-	height:97%;
 	background-color:#333;
 }
 
 body{
-	height:97%;
 	background-size: 100%;
 	-ms-ie-background-size: 100%;
   -webkit-background-size: 100%
