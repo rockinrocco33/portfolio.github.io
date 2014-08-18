@@ -7,7 +7,7 @@ $('#justForFunTabs a').click(function (e) {
 });
 
 $("#tab1").tab('show');
-
+$("#webcam").scriptcam();
 $("#tab2").tab('show');
 $("#tab3").tab('show');
 

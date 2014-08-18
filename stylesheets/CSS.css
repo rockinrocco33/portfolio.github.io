@@ -79,15 +79,12 @@
 .panel-title{
 	color:white;
 	display:inline;
-	margin-left:42%;
-	margin-right:42%;
-	  min-width:400px;
-
 }
 
 
 .panel-gradient{
 	color:white;
+	  overflow:hidden;
   -webkit-box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
           box-shadow: inset 0 3px 7px rgba(0,0,0,.15);
   background-image: -webkit-gradient(linear, left top, left bottom, from(#428bca), to(#222));
@@ -99,7 +96,17 @@
   background-image: -moz-linear-gradient(top, rgba(66, 139, 202, 1), #222);
 
 }
+.left-glyph{
+	float:left;
+}
 
+.right-glyph{
+	float:right;
+}
+
+.panel-default > .panel-heading{
+	color:white;
+}
 .collapseVid{
 	height:600px;
 	width:800px;
