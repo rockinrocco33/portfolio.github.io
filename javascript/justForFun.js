@@ -22,4 +22,16 @@ $("#tab3").tab('show');
       });
 
 
+$("#webcam").scriptcam({
+
+showMicrophoneErrors:false,
+onError:onError,
+cornerRadius:20,
+disableHardwareAcceleration:1,
+cornerColor:'e3e5e2',
+onWebcamReady:onWebcamReady,
+uploadImage:'upload.gif',
+onPictureAsBase64:base64_tofield_and_image
+})
+
 });
