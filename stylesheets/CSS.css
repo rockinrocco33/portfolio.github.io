@@ -9,6 +9,11 @@
 
 }
 
+
+#resumePdf{
+	height:100%;
+	width:100%;
+}
 #contactMeFooter{
 	text-align:center;
 	margin-bottom:5px;
