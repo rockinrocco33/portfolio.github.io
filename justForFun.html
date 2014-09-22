@@ -4,7 +4,7 @@
   <script src="./javascript/jquery-1.11.1.js"></script>
     <script language="JavaScript" src="./javascript/src/swfobject.js"></script>
   <script src="./javascript/ScriptCam-master/scriptcam.min.js"></script>
-
+  
   <link rel="stylesheet" href="./stylesheets/bootstrap.3.1.1.min.css">
 
 <link rel="stylesheet" href="./stylesheets/CSS.css">
@@ -62,9 +62,11 @@
 </div>
 <div id="tab2" class="tab-pane">
 <div>
+  <div id="testingArea">
+  <p id="wpmCounter" style="color:white">0</p>
 
-  <span id ="timeRemaining">120</span>
-
+  <span id ="timeRemaining" class ="glyphicon glyphicon-time">60</span>
+ 
   <div id="textParagraph" >
     <span id ="typed" > </span>
     <span id ="currentWord" ></span>
@@ -75,14 +77,25 @@
 <textarea id ="input"class="form-control" rows="12"></textarea>
 
 <div id="typingTestButtons">
-<button id="startButton" class="btn btn-primary btn-lg" role="button">Start Test</button>
-<button id="stopButton" class="btn btn-primary btn-lg" role="button">Stop Test</button>
+<div class = "row">
+  <div class="col-md-4">
+<button id="stopButton" class="btn btn-danger btn-lg " role="button">Restart</button>
+</div>
+</div>
 </div>
 </div>
 
+<div id="testResults" class ="">
+  <h2> Results </h2>
+  Words per minute: &nbsp
+  <span id ="wpm"></span>
+  <br/>
+  Words Typed Incorrectly
+  <span id ="missedWords"></span>
 
+</div>
+</div>
 
-	tab2
 </div>
 <div id="tab3" class="tab-pane">
 
