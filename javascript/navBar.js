@@ -1,5 +1,5 @@
 $(document).ready( function() {
-	$("#navbarLoad").load("./navbar.html", function(){
+    $("#navbarLoad").load("./navbar.html", function(){
 var mattrocco = $('#mattRocco');
 var bottomNav = $('#bottomNav');
 window.onload=function() {
@@ -18,18 +18,18 @@ var name = location.pathname.split('/').slice(-1);
 name = String(name);
 var pos = name.indexOf('.');
 name = name.substring(0,pos);
-	var current = $("#" + name);
+    var current = $("#" + name);
          $("#" + name).addClass("active");
          if(name.length == 0){
     document.getElementById("index").setAttribute("class","active");
     mattrocco.show(); 
     bottomNav.show();
 } else{
-    document.getElementById(name).setAttribute("class","active");
+   // document.getElementById(name).setAttribute("class","active");
 }
-	if( name != ""){ 
+    if( name != ""){ 
       
-	 $("#" + name).addClass("active");
+     $("#" + name).addClass("active");
      if(mattrocco){
         mattrocco.css({
         left: $("#"+name).position().left,
@@ -67,19 +67,19 @@ var newString = secretString.split("").reverse().join("");
 
 secretString = [100,105,99,107,89,117,116,116];
 
-	$(document).bind('mousemove', function(e){
+    $(document).bind('mousemove', function(e){
     if(navbar!=null){
         pageX= e.pageX
- 	if(pageX < navbar.position().left + navbar.width() - 165
-		&& pageX > navbar.position().left + 100)
-	{
+    if(pageX < navbar.position().left + navbar.width() - 165
+        && pageX > navbar.position().left + 100)
+    {
         newMatt = pageX-100;
         newBot = pageX-140;
     mattrocco.css({
         left: newMatt,
     }); 
     bottomNav.css({
-    	left: newBot,
+        left: newBot,
     });
 }
 }
